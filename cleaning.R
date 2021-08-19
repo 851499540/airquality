@@ -179,7 +179,7 @@ y<- tail[tail$Date == "2016-04-17",]
 colMeans(rbind(x,y)[1:2,c(2,4,5,6,7,8,9)])
 
 z<-data.frame(Date=c(as.Date("2016-04-16")), 
-              AQI=63,level = "Á¼",PM25=37.5,PM10=71,SO2=0.65,CO=9,NO2=37,O3_8h=91)
+              AQI=63,level = "è‰¯",PM25=37.5,PM10=71,SO2=0.65,CO=9,NO2=37,O3_8h=91)
 beijing <- rbind(rbind(head,z),tail)
 rownames(beijing) <- 1:2354
 
@@ -193,7 +193,7 @@ y<- tail[tail$Date == "2015-01-27" ,]
 colMeans(rbind(x,y)[1:2,c(2,4,5,6,7,8,9)])
 
 z<-data.frame(Date=c(as.Date("2015-01-26")), 
-              AQI=209,level = "ÖØ¶ÈÎÛÈ¾",PM25=168,PM10=32.5,SO2=19.5,CO=1.85,NO2=47.5,O3_8h=44.5)
+              AQI=209,level = "é‡åº¦æ±¡æŸ“",PM25=168,PM10=32.5,SO2=19.5,CO=1.85,NO2=47.5,O3_8h=44.5)
 wuhan <- rbind(rbind(head,z),tail)
 rownames(wuhan) <- 1:2354
 
@@ -206,7 +206,7 @@ y<- tail[tail$Date == "2015-01-27" ,]
 colMeans(rbind(x,y)[1:2,c(2,4,5,6,7,8,9)])
 
 z<-data.frame(Date=c(as.Date("2015-01-26")), 
-              AQI=189,level = "ÖÐ¶ÈÎÛÈ¾",PM25=149.5,PM10=57.5,SO2=20.5,CO=1.6,NO2=47.5,O3_8h=27.5)
+              AQI=189,level = "ä¸­åº¦æ±¡æŸ“",PM25=149.5,PM10=57.5,SO2=20.5,CO=1.6,NO2=47.5,O3_8h=27.5)
 changsha<- rbind(rbind(head,z),tail)
 
 
@@ -217,7 +217,7 @@ y<- tail[tail$Date == "2015-02-02",]
 colMeans(rbind(x,y)[1:2,c(2,4,5,6,7,8,9)])
 
 z<-data.frame(Date=c(as.Date("2015-02-01")), 
-              AQI=97.5,level = "Á¼",PM25=73.5,PM10=18.5,SO2=15.5,CO=1.2,NO2=41,O3_8h=25.5)
+              AQI=97.5,level = "è‰¯",PM25=73.5,PM10=18.5,SO2=15.5,CO=1.2,NO2=41,O3_8h=25.5)
 changsha<- rbind(rbind(head,z),tail)
 
 rownames(changsha) <- 1:2354
@@ -237,7 +237,7 @@ y<- tail[tail$Date == "2016-09-07",]
 colMeans(rbind(x,y)[1:2,c(2,4,5,6,7,8,9)])
 
 z<-data.frame(Date=c(as.Date("2016-09-9")), 
-              AQI=70.5,level = "Á¼",PM25=34,PM10=61.5,SO2=0.6,CO=3.5,NO2=37,O3_8h=119)
+              AQI=70.5,level = "è‰¯",PM25=34,PM10=61.5,SO2=0.6,CO=3.5,NO2=37,O3_8h=119)
 beijing[615,1:9] <- z
 
 
